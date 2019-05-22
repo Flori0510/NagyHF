@@ -1,9 +1,7 @@
-#ifndef TELEFONKONYV_H_INCLUDED
-#define TELEFONKONYV_H_INCLUDED
-
 #include <iostream>
 #include <fstream>
 #include "ugyfel.h"
+
 
 class Telefonkonyv {
     Ugyfel** data;
@@ -36,4 +34,4 @@ public:
 
     void save(const char* f);               //adatok kimentése
 };
-#endif // TELEFONKONYV_H_INCLUDED
+

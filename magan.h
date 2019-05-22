@@ -1,6 +1,3 @@
-#ifndef MAGAN_H_INCLUDED
-#define MAGAN_H_INCLUDED
-
 #include <string>
 #include <iostream>
 #include "ugyfel.h"
@@ -18,28 +15,12 @@ public:
 
     Magan() : maganszam(), rejtett() {}
 
-    void print(){
-         if (rejtett)
-            { std::cout << "Rejtett adat";}
-        else{
-            std::cout << name << " "
-            << address << " "
-            << telnumber << " "
-            << maganszam << std::endl;}
-        }
+    void print();
 
-
-    void f_print(std::ostream& os){
-
-            os << "m "
-            << name << " "
-            << address << " "
-            << telnumber << " "
-            << maganszam << " "
-            << rejtett << std::endl;}
+    void f_print(std::ostream& os);
 
         void UjMagan();
 
         ~Magan() {}
 };
-#endif // MAGAN_H_INCLUDED
+

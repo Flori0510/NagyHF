@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-DMEMTRACE" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -45,6 +46,8 @@
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="memtrace.cpp" />
+		<Unit filename="memtrace.h" />
 		<Unit filename="telefonkonyv.cpp">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

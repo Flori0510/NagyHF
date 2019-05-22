@@ -1,8 +1,8 @@
-#ifndef UGYFEL_H_INCLUDED
-#define UGYFEL_H_INCLUDED
+#ifndef UGYFEL_H
+#define UGYFEL_H
+
 #include <string>
 #include <iostream>
-
 
 class Ugyfel {
 protected:
@@ -24,5 +24,5 @@ public:
     virtual ~Ugyfel() {};
 };
 
+#endif // UGYFEL_H#define UGYFEL_H
 
-#endif // UGYFEL_H_INCLUDED

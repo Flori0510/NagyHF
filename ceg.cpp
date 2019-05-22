@@ -1,5 +1,4 @@
-#ifndef CEG_H_INCLUDED
-#define CEG_H_INCLUDED
+
 #include <string>
 #include <iostream>
 #include "ugyfel.h"
@@ -21,5 +20,5 @@
             << telnumber << " "
             << adoszam << " "
             << osztalyok_szama << std::endl;}
-#endif // CEG_H_INCLUDED
+
 

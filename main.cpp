@@ -1,22 +1,11 @@
 #include <string>
 #include <iostream>
 #include "ceg.h"
-#include "telefonkonyv.cpp"
+#include "telefonkonyv.h"
 #include "magan.h"
 #include "ugyfel.h"
 #include "memtrace.h"
 
-void testesetek (Telefonkonyv& t){
-
-
-
-
-
-
-
-
-
-}
 
 bool menu(Telefonkonyv& t) {
     std::cout << "Milyen muveletet akarsz csinalni?" << std::endl;

@@ -1,5 +1,3 @@
-#ifndef CEG_H_INCLUDED
-#define CEG_H_INCLUDED
 #include <string>
 #include <iostream>
 #include "ugyfel.h"
@@ -16,23 +14,10 @@ public:
 
     Ceg() : adoszam(), osztalyok_szama() {}
 
-    void print(){
-           std::cout << name << " "
-            << address << " "
-            << telnumber << " "
-            << adoszam << " "
-            << osztalyok_szama << std::endl;}
-
-    void f_print(std::ostream& os){
-            os << "c "
-            << name << " "
-            << address << " "
-            << telnumber << " "
-            << adoszam << " "
-            << osztalyok_szama << std::endl;}
-
+    void print();
+    void f_print(std::ostream& os);
         void UjCeg();
 
         ~Ceg() {}
 };
-#endif // CEG_H_INCLUDED
+

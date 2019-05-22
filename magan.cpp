@@ -1,6 +1,3 @@
-#ifndef MAGAN_H_INCLUDED
-#define MAGAN_H_INCLUDED
-
 #include <string>
 #include <iostream>
 #include "ugyfel.h"
@@ -26,4 +23,4 @@
             << telnumber << " "
             << maganszam << " "
             << rejtett << std::endl;}
-#endif // MAGAN_H_INCLUDED
+
